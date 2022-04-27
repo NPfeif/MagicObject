@@ -46,7 +46,7 @@ void setup() { Serial.begin(9600); // Datenrate über Serial
   // wird zu Beginn ausgeführt - BOOT-FUNKTION
 
   pinMode(LED_BUILTIN, OUTPUT);
-  Serial.println("Hello Leute, hier spricht der BOOT-Funktion.");
+  Serial.println("Hello Leute, hier spricht die BOOT-Funktion. Look at me.");
   connectToWiFi();
   if(!SerialBT.begin(BT_NAME)){
     Serial.println("Es ist ein Fehler aufgetreten. Bluetooth-Verbindung unterbrochen oder nicht möglich.");
